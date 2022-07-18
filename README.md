@@ -15,7 +15,8 @@
 
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="Login" src="./src/assets/project/screens/project-1.1.png"> |<img width="1604" alt="Home - no calls" src="./src/assets/project/screens/project-1.2.png"> | <img width="1604" alt="Home - calls in progress" src="./src/assets/project/screens/project-1.3.png">|<img width="1604" alt="Home - completed calls" src="./src/assets/project/screens/project-1.4.png">|<img width="1604" alt="New request" src="./src/assets/project/screens/project-1.5.png">|<img width="1604" alt="Request in progress" src="./src/assets/project/screens/project-1.6.png">|<img width="1604" alt="Completed request" src="./src/assets/project/screens/project-1.7.png">|
+|<img width="1604" alt="Login" src="./src/assets/project/screens/project-1.1.png"> |<img width="1604" alt="Home - no calls" src="./src/assets/project/screens/project-1.2.png"> | <img width="1604" alt="Home - calls in progress" src="./src/assets/project/screens/project-1.3.png">|<img width="1604" alt="Home - completed calls" src="./src/assets/project/screens/project-1.4.png">|<br>
+|<img width="1604" alt="New request" src="./src/assets/project/screens/project-1.5.png">|<img width="1604" alt="Request in progress" src="./src/assets/project/screens/project-1.6.png">|<img width="1604" alt="Completed request" src="./src/assets/project/screens/project-1.7.png">|
 <br>
 
 <p></p>
