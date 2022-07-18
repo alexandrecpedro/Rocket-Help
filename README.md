@@ -74,7 +74,7 @@ The main technologies that has been used in this project were:
   <h3>Frontend</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-  <img height =' 100px ' src="./src/assets/react_navigation.svg" />
+  <img height =' 100px ' src="./src/assets/project/logo/react_navigation.svg" />
   <img height =' 100px ' src="./src/assets/project/logo/expo.png" />
   <img height =' 100px ' src="./src/assets/project/logo/strapi.png" />
   <br>
