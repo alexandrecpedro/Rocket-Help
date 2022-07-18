@@ -41,8 +41,8 @@ The main technologies that has been used in this project were:
  
  |                  Type                  |                Tools                |                                 References                                  |
 | :------------------------------------: | :---------------------------------: | :-------------------------------------------------------------------------: |
-|       Programming Language (App)       |                REACT NATIVE                 |              https://reactnative.dev/                             | 
-|       Programming Language (App)       |                TYPESCRIPT                   |              https://www.typescriptlang.org/                             | 
+|       Programming Language (App)       |                REACT NATIVE                 |              https://reactnative.dev/                           | 
+|       Programming Language (App)       |                TYPESCRIPT                   |              https://www.typescriptlang.org/                    | 
 |       Open source platform             |           EXPO BARE WORKFLOW                |              https://expo.dev/                                  | 
 |                   IDE                  |        VISUAL STUDIO CODE (VS CODE)         |              https://code.visualstudio.com/                             |
 |        Design Interface Tool           |         FIGMA  (Prototype - UX/UI)          |              https://www.figma.com/                             |

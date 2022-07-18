@@ -7,7 +7,7 @@ import { Input } from "../components/Input";
 
 export function SignIn() {
     // useState (React Hook)
-    const [name, setName] = useState("John");
+    const [name, setName] = useState("");
     const [password, setPassword] = useState("");
 
     // Extract colors from useTheme
