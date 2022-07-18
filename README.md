@@ -87,7 +87,6 @@ The main technologies that has been used in this project were:
 
 <ol>
     <li>Part 1 - The beginning of the React Native specialization
-      <br><br>
       <ul>
         <li>Build the project prototype: https://www.figma.com/file/15HnazfsI1NFV13fIXy1wu/React-Native-Insider-5?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
@@ -109,7 +108,6 @@ The main technologies that has been used in this project were:
             expo install react-native-safe-area-context
             expo install @react-navigation/native-stack</li>
       </ul>
-      <br>
     </li>
     <br>
     <li>Part 2 - Build API (Backend) to be consumed
@@ -137,7 +135,6 @@ The main technologies that has been used in this project were:
         <li>Run project: npm run develop</li>
         <li>Access the server: https://localhost:1337</li>
         <li>Login with admin credentials</li>
-        <br>
       </ul>
     <br>
     <li>Part 3 - Mobile screens: Interface and UX</li>
@@ -168,11 +165,9 @@ The main technologies that has been used in this project were:
         <li>Create a favorite component: ./src/components/FavoritePost/index.js</li>
         <li>Favoriting categories, save on AsyncStorage and show them on screen: ./src/pages/Home/index.js</li>
       </ul>
-      <br>
     </li>
     <br>
     <li>Part 4 - Bringing the project to life
-      <br><br>
       <ul>
         <li>Request posts on Home page: ./src/pages/Home/index.js</li>
         <li>Build PostItem component: ./src/components/RenderItem/index.js</li>
@@ -181,12 +176,10 @@ The main technologies that has been used in this project were:
         <li>Using ScrollView for long items</li>
         <li>Install React-Native-Webview: expo install react-native-webview</li>
         <li>Create a LinkWeb modal component (link from post): ./src/components/LinkWeb/index.js</li>
-        <br> 
       </ul> 
-      <br>
     </li> 
+    <br>
     <li>Part 5 - Adding features Deploy, CodeGen and next steps
-      <br><br>
       <ul>
         <li>Build Search input: ./src/pages/Search/index.js</li>
         <li>Find a desirable post from title</li>
@@ -202,4 +195,3 @@ The main technologies that has been used in this project were:
 </div>
 <br>
 <br>
-
