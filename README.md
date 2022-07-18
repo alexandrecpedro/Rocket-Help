@@ -4,7 +4,7 @@
 <br>
 
 <div align = 'center' justify-content = 'space-around' >
-   <img src= './src/assets/logo/logo_primary.svg' alt = 'Rocket Help' >
+   <img src= './src/assets/project/logo/logo_primary.svg' alt = 'Rocket Help' >
 </div>
 <br>
 <br>
@@ -59,7 +59,7 @@ The main technologies that has been used in this project were:
 <br>
 
 <div align = 'center'>
-  <h3>Backend | API</h3>
+  <!-- <h3>Backend | API</h3> -->
   <h3>Database</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
   <br>
