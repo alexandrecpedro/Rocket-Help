@@ -71,11 +71,13 @@ The main technologies that has been used in this project were:
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
   <img height =' 100px ' src="./src/assets/project/logo/phosphor-icons_logo.png"/>
   <img height =' 100px ' src="./src/assets/project/logo/nativebase_logo.svg" />
+  <br>
   <h3>Frontend</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img height =' 100px ' src="./src/assets/project/logo/react_navigation.svg" />
   <img height =' 100px ' src="./src/assets/project/logo/expo.png" />
+  <br>
   <img height =' 100px ' src="./src/assets/project/logo/strapi.png" />
   <br>
   <h3>Deploy</h3>
