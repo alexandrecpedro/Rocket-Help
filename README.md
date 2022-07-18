@@ -133,28 +133,6 @@ The main technologies that has been used in this project were:
         </li>
         <li>Install Phosphor React Native Icons: yarn add phosphor-react-native</li>
         <li>Adding Phosphor Icons to SignIn component</li>
-        <li>Set you admin user</li>
-        <li>Create Database</li>
-        <li>Create new Tables: Category and Post</li>
-        <li>Relationship between tables - Category has many Posts</li>
-        <li>Populating Tables</li>
-        <li>Create a new Post</li>
-        <li>Go to Settings > User & Permissions Plugin > Roles > Public</li>
-        <li>In Category: check find and findOne</li>
-        <li>In Post: check find and findOne</li>
-        <li>Save permissions</li>
-        <li>*** Obs.: to structure a API endpoint result view on Google Chrome: 
-            3 points > More tools > Extensions > Menu hamburger > Open Chrome Web Store
-            Enter Json viewer and press enter
-            Choose the first one (Highlighted)
-            Select "Use on Chrome" 
-            Click "Add extension" 
-            Then, reloads the page</li>
-        <li>Stop the service</li>
-        <li>Enter API folder: cd blog-api</li>
-        <li>Run project: npm run develop</li>
-        <li>Access the server: https://localhost:1337</li>
-        <li>Login with admin credentials</li>
       </ul>
     <br>
     <li>Part 3 - Mobile screens: Interface and UX</li>
