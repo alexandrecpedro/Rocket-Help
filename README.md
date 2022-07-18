@@ -43,18 +43,18 @@ The main technologies that has been used in this project were:
 | :------------------------------------: | :---------------------------------: | :-------------------------------------------------------------------------: |
 |       Programming Language (App)       |                REACT NATIVE                 |              https://reactnative.dev/                             | 
 |       Programming Language (App)       |                TYPESCRIPT                   |              https://www.typescriptlang.org/                             | 
-|       Open source platform             |           EXPO BARE WORKFLOW                |              https://expo.dev/                             | 
+|       Open source platform             |           EXPO BARE WORKFLOW                |              https://expo.dev/                                  | 
 |                   IDE                  |        VISUAL STUDIO CODE (VS CODE)         |              https://code.visualstudio.com/                             |
 |        Design Interface Tool           |         FIGMA  (Prototype - UX/UI)          |              https://www.figma.com/                             |
-|   UI Utility-first Component Library   |                  NATIVE BASE                |              https://nativebase.io/                              |
-|              Graphic components        |                 PHOSPHOR ICONS              |              https://phosphoricons.com/                             |
-|       Navigation between pages         |              REACT NAVIGATION               |              https://reactnavigation.org/                             |
-|    Open source Node.js Headless CMS    |                   STRAPI                    |              https://strapi.io/                              |
-| Promise based HTTP client - browser & Node.js |             AXIOS                    |              https://axios-http.com/                             |
+|   UI Utility-first Component Library   |                  NATIVE BASE                |              https://nativebase.io/                             |
+|              Graphic components        |                 PHOSPHOR ICONS              |              https://phosphoricons.com/                         |
+|       Navigation between pages         |              REACT NAVIGATION               |              https://reactnavigation.org/                       |
+|    Open source Node.js Headless CMS    |                   STRAPI                    |              https://strapi.io/                                 |
+| Promise based HTTP client - browser & Node.js |             AXIOS                    |              https://axios-http.com/                            |
 |       Data persistence on device       |                ASYNC STORAGE                |              https://react-native-async-storage.github.io/async-storage/docs/usage/ |
-|             Database                   |                    FIREBASE                 |              https://console.firebase.google.com/                             |
-|       Animation Library                |             REACT NATIVE ANIMATABLE         |              https://github.com/oblador/react-native-animatable          |
-|              Deploy Project            |                    VERCEL                   |              https://vercel.com/                                 |
+|             Database                   |                    FIREBASE                 |              https://console.firebase.google.com/               |
+|       Animation Library                |             REACT NATIVE ANIMATABLE         |              https://github.com/oblador/react-native-animatable |
+|              Deploy Project            |                    VERCEL                   |              https://vercel.com/                                |
 
 <br>
 <br>
@@ -93,6 +93,7 @@ The main technologies that has been used in this project were:
       <ul>
         <li>Build the project prototype: https://www.figma.com/file/15HnazfsI1NFV13fIXy1wu/React-Native-Insider-5?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
+        <li>Install "R Component" extension at VS Code</li>
         <li>Install Expo CLI: npm install --global expo-cli</li>
         <li>Create a new project: expo init my-app (bare workflow)</li>
         <li>Navigate to project directory: cd my-app</li>
@@ -109,6 +110,8 @@ The main technologies that has been used in this project were:
             expo install react-native-svg <br>
             expo install react-native-safe-area-context
         </li>
+        <li>Install fonts on project: expo install expo-font @expo-google-fonts/roboto</li>
+        <li>Install Phosphor React Native Icons: yarn add phosphor-react-native</li>
         <li>Install React Navigation on project: <br>
             expo install @react-navigation/native<br> 
             expo install react-native-screens<br>
@@ -117,9 +120,18 @@ The main technologies that has been used in this project were:
       </ul>
     </li>
     <br>
-    <li>Part 2 - Build API (Backend) to be consumed
+    <li>Part 2 - Visual design project
       <ul>
-        <li>Install Strapi: npx create-strapi-app@latest my-project</li> 
+        <li>Set project assets and styles</li>
+        <li>Create screens: Signin.tsx</li>
+        <li>Create new components: Loading.tsx, Input.tsx, Button.tsx</li>
+        <li>Procedure to project recognize svg files:
+          <ul>
+            <li>Install React-Native-SVG-Transformer library: yarn add --dev react-native-svg-transformer</li>
+            <li>Set metro.config.js</li>
+            <li>Set svg.d.ts file at ./src/@types</li>
+          </ul>
+        </li>
         <li>Set you admin user</li>
         <li>Create Database</li>
         <li>Create new Tables: Category and Post</li>
