@@ -110,8 +110,6 @@ The main technologies that has been used in this project were:
             expo install react-native-svg <br>
             expo install react-native-safe-area-context
         </li>
-        <li>Install fonts on project: expo install expo-font @expo-google-fonts/roboto</li>
-        <li>Install Phosphor React Native Icons: yarn add phosphor-react-native</li>
         <li>Install React Navigation on project: <br>
             expo install @react-navigation/native<br> 
             expo install react-native-screens<br>
@@ -123,6 +121,7 @@ The main technologies that has been used in this project were:
     <li>Part 2 - Visual design project
       <ul>
         <li>Set project assets and styles</li>
+        <li>Install fonts on project: expo install expo-font @expo-google-fonts/roboto</li>
         <li>Create screens: Signin.tsx</li>
         <li>Create new components: Loading.tsx, Input.tsx, Button.tsx</li>
         <li>Procedure to project recognize svg files:
@@ -132,6 +131,8 @@ The main technologies that has been used in this project were:
             <li>Set svg.d.ts file at ./src/@types</li>
           </ul>
         </li>
+        <li>Install Phosphor React Native Icons: yarn add phosphor-react-native</li>
+        <li>Adding Phosphor Icons to SignIn component</li>
         <li>Set you admin user</li>
         <li>Create Database</li>
         <li>Create new Tables: Category and Post</li>
