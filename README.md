@@ -161,6 +161,7 @@ The main technologies that has been used in this project were:
         <li>Set navigation types: ./src/@types/navigation.d.ts</li>
         <li>Implement navigation function at Home screen: ./src/screens/Home.tsx</li>
         <li>Implement return button at Header component: ./src/components/Header.tsx</li>
+        <li>Apply useRoute hook at Details screen: ./src/screens/Details.tsx</li>
       </ul>
     <br>
     <li>Part 3 - Mobile screens: Interface and UX</li>
