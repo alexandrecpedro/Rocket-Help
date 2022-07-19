@@ -100,21 +100,29 @@ The main technologies that has been used in this project were:
         <li>Open the project on VS Code: code .</li>
         <li>Change App.js to App.tsx</li>
         <li>Create and set tsconfig.json at root</li>
-        <li>Install Native Base on project: <br>
-              yarn add native-base <br>
-              expo install react-native-svg <br>
-              expo install react-native-safe-area-context
+        <li>Install Native Base on project:
+          <ul>
+            <li>yarn add native-base</li>
+            <li>expo install react-native-svg </li>
+            <li>expo install react-native-safe-area-context</li>
+          </ul>
         </li>
-        <li>Install React Navigation on project: <br>
-              expo install @react-navigation/native<br> 
-              expo install react-native-screens<br>
-              expo install react-native-safe-area-context<br>
-              expo install @react-navigation/native-stack</li>
+        <li>Install React Navigation on project:
+          <ul>
+            <li>expo install @react-navigation/native</li>
+            <li>expo install react-native-screens</li>
+            <li>expo install react-native-safe-area-context</li>
+            <li>expo install @react-navigation/native-stack</li>
+          </ul>
+        </li>
         <li>Start the development server: expo start</li>
         <li>Configure the Expo Go on a mobile device or use an emulator</li>
-        <li>Open the app on a mobile device: <br>
-              * On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal<br>
-              * On your Android device, press "Scan QR Code" on the "Projects" tab of the Expo Go app and scan the QR code you see in the terminal.</li>
+        <li>Open the app on a mobile device:
+          <ul>
+            <li>On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal</li>
+            <li>On your Android device, press "Scan QR Code" on the "Projects" tab of the Expo Go app and scan the QR code you see in the terminal.</li>
+          </ul>
+        </li>
       </ul>
     </li>
     <br>
