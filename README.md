@@ -101,20 +101,20 @@ The main technologies that has been used in this project were:
         <li>Change App.js to App.tsx</li>
         <li>Create and set tsconfig.json at root</li>
         <li>Install Native Base on project: <br>
-            yarn add native-base <br>
-            expo install react-native-svg <br>
-            expo install react-native-safe-area-context
+              yarn add native-base <br>
+              expo install react-native-svg <br>
+              expo install react-native-safe-area-context
         </li>
         <li>Install React Navigation on project: <br>
-            expo install @react-navigation/native<br> 
-            expo install react-native-screens<br>
-            expo install react-native-safe-area-context<br>
-            expo install @react-navigation/native-stack</li>
+              expo install @react-navigation/native<br> 
+              expo install react-native-screens<br>
+              expo install react-native-safe-area-context<br>
+              expo install @react-navigation/native-stack</li>
         <li>Start the development server: expo start</li>
         <li>Configure the Expo Go on a mobile device or use an emulator</li>
         <li>Open the app on a mobile device: <br>
-            * On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal<br>
-            * On your Android device, press "Scan QR Code" on the "Projects" tab of the Expo Go app and scan the QR code you see in the terminal.</li>
+              * On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal<br>
+              * On your Android device, press "Scan QR Code" on the "Projects" tab of the Expo Go app and scan the QR code you see in the terminal.</li>
       </ul>
     </li>
     <br>
