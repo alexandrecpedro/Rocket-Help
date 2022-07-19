@@ -44,7 +44,7 @@ The main technologies that has been used in this project were:
 |       Programming Language (App)       |                REACT NATIVE                 |              https://reactnative.dev/                           | 
 |       Programming Language (App)       |                TYPESCRIPT                   |              https://www.typescriptlang.org/                    | 
 |       Open source platform             |           EXPO BARE WORKFLOW                |              https://expo.dev/                                  | 
-|                   IDE                  |        VISUAL STUDIO CODE (VS CODE)         |              https://code.visualstudio.com/                             |
+|                   IDE                  |        VISUAL STUDIO CODE (VS CODE)         |              https://code.visualstudio.com/                     |
 |        Design Interface Tool           |         FIGMA  (Prototype - UX/UI)          |              https://www.figma.com/                             |
 |   UI Utility-first Component Library   |                  NATIVE BASE                |              https://nativebase.io/                             |
 |              Graphic components        |                 PHOSPHOR ICONS              |              https://phosphoricons.com/                         |
@@ -100,11 +100,6 @@ The main technologies that has been used in this project were:
         <li>Open the project on VS Code: code .</li>
         <li>Change App.js to App.tsx</li>
         <li>Create and set tsconfig.json at root</li>
-        <li>Start the development server: expo start</li>
-        <li>Configure the Expo Go on a mobile device or use an emulator</li>
-        <li>Open the app on a mobile device: <br>
-            * On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal<br>
-            * On your Android device, press "Scan QR Code" on the "Projects" tab of the Expo Go app and scan the QR code you see in the terminal.</li>
         <li>Install Native Base on project: <br>
             yarn add native-base <br>
             expo install react-native-svg <br>
@@ -115,24 +110,58 @@ The main technologies that has been used in this project were:
             expo install react-native-screens<br>
             expo install react-native-safe-area-context<br>
             expo install @react-navigation/native-stack</li>
+        <li>Start the development server: expo start</li>
+        <li>Configure the Expo Go on a mobile device or use an emulator</li>
+        <li>Open the app on a mobile device: <br>
+            * On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal<br>
+            * On your Android device, press "Scan QR Code" on the "Projects" tab of the Expo Go app and scan the QR code you see in the terminal.</li>
       </ul>
     </li>
     <br>
-    <li>Part 2 - Visual design project
+    <li>Part 2 - Visual design project & Navigation
       <ul>
         <li>Set project assets and styles</li>
         <li>Install fonts on project: expo install expo-font @expo-google-fonts/roboto</li>
-        <li>Create screens: Signin.tsx</li>
-        <li>Create new components: Loading.tsx, Input.tsx, Button.tsx</li>
+        <li>Create screens: 
+          <ul>
+            <li>Signin.tsx</li>
+            <li>Home.tsx</li>
+            <li>Register.tsx</li>
+            <li>Details.tsx</li>
+          </ul>
+        </li>
+        <li>Create new components: 
+          <ul>
+            <li>Loading.tsx</li>
+            <li>Input.tsx</li>
+            <li>Button.tsx</li>
+            <li>Filter.tsx</li>
+            <li>Order.tsx</li>
+            <li>Header.tsx</li>
+          </ul>
+        </li>
         <li>Procedure to project recognize svg files:
           <ul>
             <li>Install React-Native-SVG-Transformer library: yarn add --dev react-native-svg-transformer</li>
             <li>Set metro.config.js</li>
-            <li>Set svg.d.ts file at ./src/@types</li>
+            <li>Set svg.d.ts file: ./src/@types/svg.d.ts</li>
           </ul>
         </li>
         <li>Install Phosphor React Native Icons: yarn add phosphor-react-native</li>
-        <li>Adding Phosphor Icons to SignIn component</li>
+        <li>Adding Phosphor Icons to SignIn screen</li>
+        <li>Add components at Home screen: ./src/screens/Home.tsx</li>
+        <li>Add Header, Input and Button components at Register screen: ./src/screens/Register.tsx</li>
+        <li>Add Header component at Details screen: ./src/screens/Details.tsx</li>
+        <li>Create routes:
+          <ul>
+            <li>AppRoutes: ./src/routes/app.routes.tsx</li>
+            <li>Routes: ./src/routes/index.tsx</li>
+          </ul>
+        </li>
+        <li>Set navigation types: ./src/@types/navigation.d.ts</li>
+        <li>Implement navigation function at Home screen: ./src/screens/Home.tsx</li>
+        <li>Implement return button at Header component: ./src/components/Header.tsx</li>
+        <li>Apply useRoute hook at Details screen: ./src/screens/Details.tsx</li>
       </ul>
     <br>
     <li>Part 3 - Mobile screens: Interface and UX</li>
@@ -147,9 +176,9 @@ The main technologies that has been used in this project were:
         <li>Install Async Storage module: expo install @react-native-async-storage/async-storage</li>
         <li>Stop and restart server</li>
         <li>React Hooks usage</li>
-        <li>Creating server: ./src/services/api.js
-            * Obs.: React Native requires a safe connection (e.g. https://)
-            When it is not possible, we need to find our device ipconfig (IPv4)
+        <li>Creating server: ./src/services/api.js <br>
+            * Obs.: React Native requires a safe connection (e.g. https://) <br>
+            When it is not possible, we need to find our device ipconfig (IPv4) <br>
             Then, substitute "localhost" with this numbers (e.g. http://192.168....)
         </li>
         <li>Install react-native-dotenv module: expo install react-native-dotenv</li>

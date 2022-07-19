@@ -2,8 +2,8 @@ import { NativeBaseProvider, StatusBar } from 'native-base';
 import { Roboto_400Regular, Roboto_700Bold, useFonts } from '@expo-google-fonts/roboto';
 import { THEME } from './src/styles/theme';
 import React from 'react';
-import { SignIn } from './src/screens/Signin';
 import { Loading } from './src/components/Loading';
+import { Routes } from './src/routes';
 
 export default function App() {
   // Use Fonts (async process)
@@ -19,7 +19,7 @@ export default function App() {
       />
 
       {/* The app should wait until fonts are loaded */}
-      { fontsLoaded ? <SignIn /> : <Loading /> }
+      { fontsLoaded ? <Routes /> : <Loading /> }
     </NativeBaseProvider>
   );
 }
