@@ -31,7 +31,7 @@
 
 <div id="target">
 <h2> 💡 Target </h2>
-Build an user request support mobile app
+Build an user request support mobile app for Android and iOS (Hybrid) using React Native
 </div>
 <br>
 
