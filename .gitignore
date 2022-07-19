@@ -56,3 +56,4 @@ dist/
 
 # VS Code
 .vscode
+yarn-error.log
