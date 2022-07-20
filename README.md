@@ -49,9 +49,6 @@ The main technologies that has been used in this project were:
 |   UI Utility-first Component Library   |                  NATIVE BASE                |              https://nativebase.io/                             |
 |              Graphic components        |                 PHOSPHOR ICONS              |              https://phosphoricons.com/                         |
 |       Navigation between pages         |              REACT NAVIGATION               |              https://reactnavigation.org/                       |
-|    Open source Node.js Headless CMS    |                   STRAPI                    |              https://strapi.io/                                 |
-| Promise based HTTP client - browser & Node.js |             AXIOS                    |              https://axios-http.com/                            |
-|       Data persistence on device       |                ASYNC STORAGE                |              https://react-native-async-storage.github.io/async-storage/docs/usage/ |
 |             Database                   |                    FIREBASE                 |              https://console.firebase.google.com/               |
 | React Native support Library for Firebase |             REACT NATIVE FIREBASE           |              https://rnfirebase.io/                             |
 |              Deploy Project            |                    VERCEL                   |              https://vercel.com/                                |
@@ -60,7 +57,6 @@ The main technologies that has been used in this project were:
 <br>
 
 <div align = 'center'>
-  <!-- <h3>Backend | API</h3> -->
   <h3>Database</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
   <br>
@@ -77,8 +73,6 @@ The main technologies that has been used in this project were:
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img height =' 100px ' src="./src/assets/project/logo/react_navigation.svg" />
   <img height =' 100px ' src="./src/assets/project/logo/expo.png" />
-  <br>
-  <img height =' 100px ' src="./src/assets/project/logo/strapi.png" />
   <br>
   <h3>Deploy</h3>
   <img width =' 300px ' src="./src/assets/project/logo/vercel_logo.svg" />
@@ -213,20 +207,5 @@ The main technologies that has been used in this project were:
         <li>Implement CardDetails at Details screen: ./src/screens/Details.tsx</li>
       </ul>
     </li>
-    <br>
-    <li>Part 5 - Adding features Deploy, CodeGen and next steps
-      <ul>
-        <li>Build Search input: ./src/pages/Search/index.js</li>
-        <li>Find a desirable post from title</li>
-        <li>Show posts found on screen</li>
-        <li>Only stop showing device keyboard if found a post</li>
-        <li>Update Home page with refresh option</li>
-        <li>Build CategoryPosts page: ./src/pages/CategoryPosts/index.js</li>
-        <li>Adding some animations (React Native Animatable): expo install react-native-animatable</li>
-        <li>Use animation on Home page</li>
-      </ul> 
-    </li>
 </ol>
 </div>
-<br>
-<br>
