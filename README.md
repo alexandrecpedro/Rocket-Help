@@ -27,7 +27,6 @@
  <a href="#route">Route</a> 
 </p>
 <br>
-<br>
 
 <div id="target">
 <h2> 💡 Target </h2>
@@ -53,7 +52,6 @@ The main technologies that has been used in this project were:
 | React Native support Library for Firebase |             REACT NATIVE FIREBASE           |              https://rnfirebase.io/                             |
 |              Deploy Project            |                    VERCEL                   |              https://vercel.com/                                |
 
-<br>
 <br>
 
 <div align = 'center'>
