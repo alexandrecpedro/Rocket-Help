@@ -172,8 +172,19 @@ The main technologies that has been used in this project were:
         <li>Apply useRoute hook at Details screen: ./src/screens/Details.tsx</li>
       </ul>
     <br>
-    <li>Part 3 - Mobile screens: Interface and UX</li>
+    <li>Part 3 - Integration with Firebase</li>
       <ul>  
+        <li>We still can't run Firebase in Expo development environment. Set the environment:<br>
+            https://react-native.rocketseat.dev/</li>
+        <li>Create a Firebase account, if you don't have one</li>
+        <li>Create a project on Firebase and link with Android Studio, by SHA-1 key (gradle/app//tasks/android/signingReport) and the base package of the project (AndroidManifests.xml)</li>
+        <li>Set the Firebase Authentication, enabling only email</li>
+        <li>Set the Firebase RealtimeDatabase, with the rule that any person can modify the database</li>
+        <li>Set the Firebase Storage</li>
+        <li>Download and put google-services.json file into the folder indicated by Firebase</li>
+        <li>Compile the project and run it via emulator or physically via smartphone ou tablet with Android system higher than 4.1 (Jelly Bean)</li>
+        <li>Obs: Tested with MIUI Global 12.0.3</li>
+</ul>
         <li>Build the Home page: ./src/pages/Home/index.js</li>
         <li>Setting routes: ./src/routes.js</li>
         <li>Update ./App.js</li>
