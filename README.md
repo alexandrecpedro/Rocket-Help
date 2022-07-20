@@ -146,6 +146,12 @@ The main technologies that has been used in this project were:
             <li>Filter.tsx</li>
             <li>Order.tsx</li>
             <li>Header.tsx</li>
+            <li>CardDetails.tsx</li>
+          </ul>
+        </li>
+        <li>Create DTOs (Data Transfer Object): 
+          <ul>
+            <li>OrderFirestoreDTO.ts</li>
           </ul>
         </li>
         <li>Procedure to project recognize svg files:
@@ -174,7 +180,7 @@ The main technologies that has been used in this project were:
     <br>
     <li>Part 3 - Integration with Firebase</li>
       <ul>  
-        <li>We still can't run Firebase in Expo development environment. Set the environment:<br>
+        <li>We still can't run Firebase in Expo Go development environment. Set the environment:<br>
             https://react-native.rocketseat.dev/</li>
         <li>Create a Firebase account, if you don't have one</li>
         <li>Create a project on Firebase</li>
@@ -195,51 +201,18 @@ The main technologies that has been used in this project were:
             </li>
           </ul>
         </li>
-        <li></li>
-        <li>Set the Firebase Storage</li>
-        <li>Download and put google-services.json file into the folder indicated by Firebase</li>
-        <li>Compile the project and run it via emulator or physically via smartphone ou tablet with Android system higher than 4.1 (Jelly Bean)</li>
-        <li>Obs: Tested with MIUI Global 12.0.3</li>
-</ul>
-        <li>Build the Home page: ./src/pages/Home/index.js</li>
-        <li>Setting routes: ./src/routes.js</li>
-        <li>Update ./App.js</li>
-        <li>Repeat the previous procedures for Detail, CategoryPosts and Search pages</li>
-        <li>Set header for the pages: ./src/routes.js</li>
-        <li>Use SafeAreaView to avoid broken screens: ./src/pages/Home/index.js</li>
-        <li>Install Axios (HTTP request) module: expo install axios</li>
-        <li>Install Async Storage module: expo install @react-native-async-storage/async-storage</li>
-        <li>Stop and restart server</li>
-        <li>React Hooks usage</li>
-        <li>Creating server: ./src/services/api.js <br>
-            * Obs.: React Native requires a safe connection (e.g. https://) <br>
-            When it is not possible, we need to find our device ipconfig (IPv4) <br>
-            Then, substitute "localhost" with this numbers (e.g. http://192.168....)
-        </li>
-        <li>Install react-native-dotenv module: expo install react-native-dotenv</li>
-        <li>Enter .env on .gitignore</li>
-        <li>Create a .env file for sensible data: ./.env</li>
-        <li>Go to the Home page: ./src/pages/Home/index.js</li>
-        <li>Recover the api info and build the posts list</li>
-        <li>Subdividing some parts in Components: ./src/components</li>
-        <li>Creating features/functionalities</li>
-        <li>Create a favorite service: ./src/services/favorite.js</li>
-        <li>Create a favorite component: ./src/components/FavoritePost/index.js</li>
-        <li>Favoriting categories, save on AsyncStorage and show them on screen: ./src/pages/Home/index.js</li>
+        <li>Implement Auth Service at SignIn screen: ./src/screens/Signin.tsx</li>
+        <li>Start application (emulator): expo run:android</li>
+        <li>React Hooks usage at Routes: ./src/routes/index.tsx</li>
+        <li>Format date from Firestore database: ./src/utils/firestoreDateFormat.ts</li>
+        <li>Implement Logout, Auth Service and Firestore at Home screen: ./src/screens/Home.tsx</li>
+        <li>Implement React Hooks, navigation and Firestore at Register screen: ./src/screens/Register.tsx</li>
+        <li>Set OrderFirestoreDTO (data delivered by Firestore): ./src/DTOs/OrderFirestoreDTO.ts</li>
+        <li>Implement React Hooks, navigation, types and Firestore at Details screen: ./src/screens/Details.tsx</li>
+        <li>Setting CardDetails component: ./src/components/CardDetails.tsx</li>
+        <li>Implement CardDetails at Details screen: ./src/screens/Details.tsx</li>
       </ul>
     </li>
-    <br>
-    <li>Part 4 - Bringing the project to life
-      <ul>
-        <li>Request posts on Home page: ./src/pages/Home/index.js</li>
-        <li>Build PostItem component: ./src/components/RenderItem/index.js</li>
-        <li>Link Posts from Home to Details page</li>
-        <li>Create Detail interface: ./src/pages/Detail/index.js</li>
-        <li>Using ScrollView for long items</li>
-        <li>Install React-Native-Webview: expo install react-native-webview</li>
-        <li>Create a LinkWeb modal component (link from post): ./src/components/LinkWeb/index.js</li>
-      </ul> 
-    </li> 
     <br>
     <li>Part 5 - Adding features Deploy, CodeGen and next steps
       <ul>
