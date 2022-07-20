@@ -50,7 +50,6 @@ The main technologies that has been used in this project were:
 |       Navigation between pages         |              REACT NAVIGATION               |              https://reactnavigation.org/                       |
 |             Database                   |                    FIREBASE                 |              https://console.firebase.google.com/               |
 | React Native support Library for Firebase |             REACT NATIVE FIREBASE           |              https://rnfirebase.io/                             |
-|              Deploy Project            |                    VERCEL                   |              https://vercel.com/                                |
 
 <br>
 
@@ -71,9 +70,6 @@ The main technologies that has been used in this project were:
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img height =' 100px ' src="./src/assets/project/logo/react_navigation.svg" />
   <img height =' 100px ' src="./src/assets/project/logo/expo.png" />
-  <br>
-  <h3>Deploy</h3>
-  <img width =' 300px ' src="./src/assets/project/logo/vercel_logo.svg" />
   <br>
 </div>
 
