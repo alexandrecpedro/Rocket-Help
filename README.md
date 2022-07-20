@@ -53,7 +53,7 @@ The main technologies that has been used in this project were:
 | Promise based HTTP client - browser & Node.js |             AXIOS                    |              https://axios-http.com/                            |
 |       Data persistence on device       |                ASYNC STORAGE                |              https://react-native-async-storage.github.io/async-storage/docs/usage/ |
 |             Database                   |                    FIREBASE                 |              https://console.firebase.google.com/               |
-|       Animation Library                |             REACT NATIVE ANIMATABLE         |              https://github.com/oblador/react-native-animatable |
+| React Native support Library for Firebase |             REACT NATIVE FIREBASE           |              https://rnfirebase.io/                             |
 |              Deploy Project            |                    VERCEL                   |              https://vercel.com/                                |
 
 <br>
@@ -177,9 +177,25 @@ The main technologies that has been used in this project were:
         <li>We still can't run Firebase in Expo development environment. Set the environment:<br>
             https://react-native.rocketseat.dev/</li>
         <li>Create a Firebase account, if you don't have one</li>
-        <li>Create a project on Firebase and link with Android Studio, by SHA-1 key (gradle/app//tasks/android/signingReport) and the base package of the project (AndroidManifests.xml)</li>
-        <li>Set the Firebase Authentication, enabling only email</li>
-        <li>Set the Firebase RealtimeDatabase, with the rule that any person can modify the database</li>
+        <li>Create a project on Firebase</li>
+        <li>Set the Firebase Authentication, enabling only "E-mail/password"</li>
+        <li>Add an user: eg. email = alex@email.com | password = 123456</li>
+        <li>Set the Firebase FirestoreDatabase, enabling on "Start at test mode"</li>
+        <li>Connecting Firebase with our application
+          <ul> 
+            <li>Set React Native Firebase library (http://rnfirebase.io)
+              <ul>
+                <li>Install & setup the app module: yarn add @react-native-firebase/app</li>
+                <li>Install settings with Expo at app.json (plugin)</li>
+                <li>Add Firebase config (Google services) files for iOS and Android at project root</li>
+                <li>Prebuild project: expo prebuild</li>
+                <li>Install the firestore module: yarn add @react-native-firebase/firestore</li>
+                <li>Install the authentication module: yarn add @react-native-firebase/auth</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li></li>
         <li>Set the Firebase Storage</li>
         <li>Download and put google-services.json file into the folder indicated by Firebase</li>
         <li>Compile the project and run it via emulator or physically via smartphone ou tablet with Android system higher than 4.1 (Jelly Bean)</li>
